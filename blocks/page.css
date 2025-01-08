@@ -1,8 +1,8 @@
 .page {
   background: #2a2c2f;
   color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-position: relative;
-width: 1280px;
-height: 2008px;
