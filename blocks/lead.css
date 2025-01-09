@@ -1,3 +1,12 @@
 .lead {
   background: #2a2c2f;
 }
+
+.lead__image {
+  width: 984px;
+  height: 983px;
+  top: 194px;
+  left: 148px;
+  gap: 0px;
+  opacity: 0px;
+}
