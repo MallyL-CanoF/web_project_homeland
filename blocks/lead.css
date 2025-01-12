@@ -9,9 +9,7 @@
   font-weight: 900;
   line-height: 100px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  padding-top: 194px;
+  padding-top: 94px;
 }
 
 .lead__content_subtitle {
@@ -20,18 +18,14 @@
   font-weight: 400;
   line-height: 36px;
   text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  padding-top: 50px;
 }
 
 .lead__content_image {
-  width: 984px;
-  height: 983px;
-  top: 194px;
-  left: 148px;
-  gap: 0px;
-  opacity: 0px;
+  max-width: 984px;
+  max-height: 983px;
   object-fit: contain;
+  margin-top: 62px;
 }
 
 .lead__span-accent {

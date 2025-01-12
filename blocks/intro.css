@@ -1,3 +1,9 @@
+.intro {
+  margin: 92px auto;
+  max-width: 830px;
+  max-height: 607px;
+}
+
 .intro__title {
   font-family: Inter;
   font-size: 54px;
