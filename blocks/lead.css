@@ -1,11 +1,5 @@
-.lead {
-  background: #2a2c2f;
-}
-
 .lead__content {
-  max-width: 984px;
-  justify-content: center;
-  text-align: center;
+  width: 984px;
   margin: auto;
 }
 
