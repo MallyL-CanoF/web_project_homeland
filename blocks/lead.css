@@ -11,6 +11,7 @@
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-top: 194px;
 }
 
 .lead__content_subtitle {
@@ -31,4 +32,8 @@
   gap: 0px;
   opacity: 0px;
   object-fit: contain;
+}
+
+.lead__span-accent {
+  display: block;
 }
