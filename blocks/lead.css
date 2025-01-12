@@ -2,7 +2,14 @@
   background: #2a2c2f;
 }
 
-.lead__title {
+.lead__content {
+  max-width: 984px;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+
+.lead__content_title {
   font-family: Inter;
   font-size: 96px;
   font-weight: 900;
@@ -12,7 +19,7 @@
   text-decoration-skip-ink: none;
 }
 
-.lead__subtitle {
+.lead__content_subtitle {
   font-family: Inter;
   font-size: 30px;
   font-weight: 400;
@@ -22,11 +29,12 @@
   text-decoration-skip-ink: none;
 }
 
-.lead__image {
+.lead__content_image {
   width: 984px;
   height: 983px;
   top: 194px;
   left: 148px;
   gap: 0px;
   opacity: 0px;
+  object-fit: contain;
 }
