@@ -1,0 +1,68 @@
+.header__content {
+  width: 984px;
+  margin: auto;
+}
+
+.header__content_title {
+  font-family: "Inter black 900", Arial, sans-serif;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 100px;
+  text-align: center;
+  padding-top: 94px;
+}
+
+.header__content_subtitle {
+  font-family: Inter;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header__content_image {
+  width: 100%;
+  max-width: 984px;
+  max-height: 983px;
+  object-fit: contain;
+  margin-top: 62px;
+}
+
+.header__span-accent {
+  display: block;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header__content {
+    width: 100%;
+  }
+
+  .header__content_title {
+    font-size: 75px;
+    line-height: 86px;
+    padding-top: 86px;
+  }
+
+  .header__content_subtitle {
+    padding-top: 50px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .header__content {
+    width: 100%;
+  }
+
+  .header__content_title {
+    font-size: 40px;
+    line-height: 44px;
+    padding-top: 80px;
+  }
+
+  .header__content_subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 30px;
+  }
+}
