@@ -1,7 +1,8 @@
 .intro {
-  margin: 92px auto;
+  margin: 92px;
   max-width: 830px;
   max-height: 607px;
+  width: 100%;
 }
 
 .intro__title {
@@ -42,4 +43,25 @@
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .intro {
+    max-height: auto;
+    margin: 40px 20px;
+  }
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    max-width: 707px;
+  }
+
+  .intro__author-quote {
+    max-width: 800px;
+  }
+
+  .intro__description {
+    max-width: 800px;
+  }
 }

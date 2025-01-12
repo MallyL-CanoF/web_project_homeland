@@ -22,6 +22,7 @@
 }
 
 .lead__content_image {
+  width: 100%;
   max-width: 984px;
   max-height: 983px;
   object-fit: contain;
@@ -30,4 +31,20 @@
 
 .lead__span-accent {
   display: block;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lead__content {
+    width: 100%;
+  }
+
+  .lead__content_title {
+    font-size: 75px;
+    line-height: 86px;
+    padding-top: 86px;
+  }
+
+  .lead__content_subtitle {
+    padding-top: 50px;
+  }
 }

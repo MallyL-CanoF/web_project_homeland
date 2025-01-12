@@ -5,3 +5,11 @@
   width: 254.84px;
   height: 68.94px;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .nav__logo {
+    width: 254px;
+    height: 66px;
+    padding-top: 34px;
+  }
+}
