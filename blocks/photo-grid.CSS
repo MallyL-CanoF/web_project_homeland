@@ -1,3 +1,12 @@
 .photo-grid {
-  border: solid 4px lightblue;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 15px;
+  margin: 118px auto 43px;
+}
+
+.header__content_photo {
+  width: 100%;
 }
