@@ -56,6 +56,10 @@
     max-width: 707px;
   }
 
+  .intro__quote {
+    width: 720px;
+  }
+
   .intro__author-quote {
     max-width: 800px;
   }
