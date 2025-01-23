@@ -46,8 +46,20 @@
   text-decoration-skip-ink: none;
 }
 
-.place__link {
-  width: 350px;
-  height: 60px;
-  background: linear-gradient(90drg, #0278fe 0%, #003a7b 99.98%);
+.place__button {
+  width: 289px;
+  height: 48px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 600;
+  line-height: 29.34px;
+  color: white;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
 }
