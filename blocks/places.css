@@ -1,3 +1,9 @@
+.place {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr auto;
+}
+
 .place__title {
 }
 
@@ -13,4 +19,14 @@
 }
 
 .place__text {
+}
+
+.place__link {
+  width: 350px;
+  height: 60px;
+  background: linear-gradient(0drg, #0278fe 0%, #003a7b 99.98%);
+  padding: 10px;
+  border-radius: 5px;
+  grid-row: 2/3;
+  color: white;
 }
