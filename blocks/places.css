@@ -3,7 +3,7 @@
   margin-left: 200px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr auto;
+  grid-template-rows: auto auto 1fr;
   gap: 48px;
 }
 
@@ -32,6 +32,9 @@
   height: 460px;
   box-shadow: 10px 10px 25px 0px #00000080;
 }
+
+.place__image:hover{
+  opacity: 50%;
 
 .place__paragraphs {
 }
