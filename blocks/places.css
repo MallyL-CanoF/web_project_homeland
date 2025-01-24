@@ -1,6 +1,10 @@
-.places__content {
+.places {
   max-width: 984px;
   margin-left: 200px;
+}
+
+.places__content {
+  max-width: 100%;
   margin-bottom: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -32,6 +36,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   grid-area: subtitle;
+  padding-top: 120px;
 }
 
 .places__subtitle-title {
@@ -60,6 +65,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   grid-area: text;
+  margin: 0;
 }
 
 .places__button {
