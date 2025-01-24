@@ -51,6 +51,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro {
     margin: 40px 20px;
+    max-width: 760px;
   }
 
   .intro__title {

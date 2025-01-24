@@ -11,10 +11,10 @@
   width: 100%;
 }
 
-/*@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .photo-grid {
     max-width: 768px;
     grid-template-columns: 1fr 1fr;
     margin: 64px auto 88px;
   }
-}/*
+}
