@@ -97,4 +97,27 @@
     max-width: 760px;
     margin: auto;
   }
+
+  .places__content {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 72px;
+  }
+
+  .places__title {
+    max-width: 340px;
+    font-size: 42px;
+    line-height: 46px;
+    padding-top: 120px;
+  }
+
+  .places__image {
+    width: 340px;
+    height: 340px;
+  }
+
+  .places__text {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
 }
