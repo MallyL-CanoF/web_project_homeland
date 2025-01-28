@@ -121,3 +121,45 @@
     line-height: 26.08px;
   }
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .places {
+    max-width: 320px;
+    margin: auto;
+  }
+
+  .places__content {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+      "title"
+      "subtitle"
+      "image"
+      "text"
+      "button";
+  }
+
+  .places__title {
+    max-width: 340px;
+    font-size: 32px;
+    line-height: 35px;
+    padding-top: 120px;
+  }
+
+  .places__image {
+    width: 320px;
+    height: 320px;
+  }
+
+  .places__text {
+    font-size: 16px;
+    line-height: 26.08px;
+  }
+
+  .places__button {
+    width: 280px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
