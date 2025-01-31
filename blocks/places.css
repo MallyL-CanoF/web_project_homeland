@@ -138,6 +138,7 @@
       "image"
       "text"
       "button";
+    gap: 28px;
   }
 
   .places__title {
