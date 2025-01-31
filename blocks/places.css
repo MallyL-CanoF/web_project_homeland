@@ -145,7 +145,7 @@
 
   .places__title {
     width: 100%;
-    max-width: 288px;
+    max-width: 280px;
     font-size: 32px;
     line-height: 35px;
     margin: 10px;
@@ -153,7 +153,7 @@
 
   .places__subtitle {
     width: 100%;
-    max-width: 300px;
+    max-width: 280px;
     margin: 10px;
   }
 
