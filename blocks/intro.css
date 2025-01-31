@@ -53,6 +53,7 @@
   .intro {
     margin: 40px 20px;
     max-width: 760px;
+    width: 100%;
   }
 
   .intro__title {
