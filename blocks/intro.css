@@ -52,7 +52,7 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro {
     margin: 40px 20px;
-    max-width: 760px;
+    max-width: 720px;
     width: 100%;
   }
 
@@ -67,11 +67,13 @@
   }
 
   .intro__author-quote {
-    max-width: 800px;
+    width: 100%;
+    max-width: 720px;
   }
 
   .intro__description {
-    max-width: 800px;
+    width: 100%;
+    max-width: 720px;
   }
 }
 
