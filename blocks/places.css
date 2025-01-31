@@ -25,6 +25,7 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   grid-area: title;
+  margin: 0px;
 }
 
 .places__subtitle {
@@ -36,13 +37,14 @@
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   grid-area: subtitle;
-  padding-top: 120px;
+  align-self: end;
 }
 
 .places__subtitle-title {
   font-size: 12px;
   color: #aaa;
   letter-spacing: 3px;
+  margin: 0px;
 }
 
 .places__image {
@@ -100,7 +102,7 @@
 
   .places__content {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     gap: 72px;
   }
 
@@ -108,7 +110,6 @@
     max-width: 340px;
     font-size: 42px;
     line-height: 46px;
-    padding-top: 120px;
   }
 
   .places__image {
@@ -130,7 +131,7 @@
 
   .places__content {
     grid-template-columns: 1fr;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas:
       "title"
       "subtitle"
@@ -143,7 +144,6 @@
     max-width: 340px;
     font-size: 32px;
     line-height: 35px;
-    padding-top: 120px;
   }
 
   .places__image {
