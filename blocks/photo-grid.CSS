@@ -2,13 +2,59 @@
   max-width: 1280px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "title title title title"
+    "image1 image2 image3 image4"
+    "image5 image6 image7 image8";
   gap: 15px;
   margin: 118px auto 43px;
 }
 
-.photo-grid__item {
+.photo-grid__title {
+  font-size: 30px;
+  margin: auto;
+  grid-area: title;
+}
+
+.photo-grid__item1 {
   width: 100%;
+  grid-area: image1;
+}
+
+.photo-grid__item2 {
+  width: 100%;
+  grid-area: image2;
+}
+
+.photo-grid__item3 {
+  width: 100%;
+  grid-area: image3;
+}
+
+.photo-grid__item4 {
+  width: 100%;
+  grid-area: image4;
+}
+
+.photo-grid__item5 {
+  width: 100%;
+  grid-area: image5;
+}
+
+.photo-grid__item6 {
+  width: 100%;
+  grid-area: image6;
+}
+
+.photo-grid__item7 {
+  width: 100%;
+  grid-area: image7;
+}
+
+.photo-grid__item8 {
+  width: 100%;
+  grid-area: image8;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
