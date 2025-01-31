@@ -1,11 +1,12 @@
-.content {
-}
-
 .intro {
-  margin: 92px 210px;
+  margin: 92px auto;
   max-width: 830px;
   max-height: 607px;
   width: 100%;
+}
+
+.intro__content {
+  max-width: 830px;
 }
 
 .intro__title {
