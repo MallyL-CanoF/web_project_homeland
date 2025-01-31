@@ -11,7 +11,7 @@
   margin: 118px auto 43px;
 }
 
-.photo-grid__title {
+.photo-grid__head {
   font-size: 30px;
   margin: auto;
   grid-area: title;
