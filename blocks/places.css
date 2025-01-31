@@ -144,25 +144,39 @@
   }
 
   .places__title {
-    max-width: 340px;
+    width: 100%;
+    max-width: 288px;
     font-size: 32px;
     line-height: 35px;
+    margin: 10px;
+  }
+
+  .places__subtitle {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
   }
 
   .places__image {
-    width: 320px;
+    width: 100%;
+    max-width: 302px;
     height: 320px;
   }
 
   .places__text {
     font-size: 16px;
     line-height: 26.08px;
+    width: 100%;
+    max-width: 280px;
+    margin: 10px;
   }
 
   .places__button {
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     height: 48px;
     font-size: 18px;
     line-height: 28px;
+    margin: auto;
   }
 }

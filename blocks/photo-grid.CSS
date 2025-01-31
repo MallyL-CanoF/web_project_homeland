@@ -23,6 +23,6 @@
   .photo-grid {
     max-width: 320px;
     grid-template-columns: 1fr;
-    margin: 38px auto 62px;
+    margin: 38px 16px 62px;
   }
 }

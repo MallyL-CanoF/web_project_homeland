@@ -81,7 +81,8 @@
   .intro {
     max-height: 100%;
     margin: 40px 20px;
-    width: 288px;
+    width: 100%;
+    max-width: 260px;
   }
 
   .intro__title {
