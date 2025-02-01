@@ -61,7 +61,14 @@
   .photo-grid {
     max-width: 768px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     margin: 64px 24px 88px;
+    grid-template-areas:
+      "title title"
+      "image1 image2"
+      "image3 image4"
+      "image5 image6"
+      "image7 image8";
   }
 }
 
@@ -69,6 +76,17 @@
   .photo-grid {
     max-width: 320px;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "title"
+      "image1"
+      "image2"
+      "image3"
+      "image4"
+      "image5"
+      "image6"
+      "image7"
+      "image8";
     margin: 38px 16px 62px;
   }
 }
