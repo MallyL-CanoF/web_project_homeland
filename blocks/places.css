@@ -85,7 +85,9 @@
 }
 
 .places__button:hover {
-  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+  opacity: 0.5;
+  cursor: pointer;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
